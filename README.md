@@ -10,6 +10,7 @@ $ sudo docker-compose run django_news_api sh -c "python manage.py migrate"
 $ sudo docker-compose run django_news_api sh -c "python manage.py create_data"
 ```
 Created data is stored in posts/management/commands/create_data.py
+
 3. Now, run the following command to run your Django application in Docker container:
 ```console
 $ sudo docker-compose up
