@@ -44,7 +44,7 @@ $ sudo docker-compose up
     "content": ""
 }
 ```
-4.4 Navigate to http://0.0.0.0:8000/posts/<int:pk>/upvote/ on your browser to upvote the post.(You must be authenticated)
+4.4 Navigate to http://0.0.0.0:8000/posts/(pk)/upvote/ on your browser to upvote the post(id = pk).(You must be authenticated)
 Method "GET" not allowed.
 "POST" Method to upvote the post.
 
