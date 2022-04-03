@@ -22,7 +22,7 @@ $ sudo docker-compose up
 {
     "title": "",
     "link": "",
-    "author_name": null
+    "author_name": id
 }
 ```
 4.2. Navigate to http://0.0.0.0:8000/posts/userlist/ on your browser to check the list of posts.
@@ -40,8 +40,8 @@ $ sudo docker-compose up
 "POST" Method to compose the comment. Content:
 ```json
 {
-    "post": null,
-    "name": null,
+    "post": id,
+    "name": id,
     "content": ""
 }
 ```
